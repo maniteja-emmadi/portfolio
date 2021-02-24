@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap");
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+@media (min-width: 768px) {
+	.max-width {
+		max-width: 1300px;
+		padding: 0 80px;
+		margin: auto;
+	}
+}
+
+@media (min-height: 1330px) {
+	.max-width {
+		max-width: 1300px;
+		padding: 0 40px;
+		margin: auto;
+	}
+}
