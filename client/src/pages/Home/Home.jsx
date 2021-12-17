@@ -6,6 +6,7 @@ function Home() {
 	return (
 		<React.Fragment>
 			<Hero />
+			<About />
 		</React.Fragment>
 	);
 }
